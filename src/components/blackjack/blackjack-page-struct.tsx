@@ -126,7 +126,7 @@ const PageStruct = () => {
         {/* Floating Buttons */}
         <FloatingButton
           label="Menu"
-          x={1360}
+          x={1390}
           y={5}
           colorScheme="purple"
           onClick={toggleMenu}
