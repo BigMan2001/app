@@ -1,7 +1,7 @@
 import * as anchor from "@project-serum/anchor";
 import {
   type Program,
-} from "@coral-xyz/anchor-30";
+} from "@coral-xyz/anchor";
 import {
   PublicKey,
   Keypair,
