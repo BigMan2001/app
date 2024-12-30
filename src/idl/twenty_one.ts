@@ -5,7 +5,7 @@
  * IDL can be found at `target/idl/twenty_one.json`.
  */
 export type TwentyOne = {
-  "address": "CDiinjeYnrY8Qh2ZaKfYVYXczh8vJQx9bjgwEPwP7dUt",
+  "address": "FpyrBGX9rfgCMpDJNXGHvF5g7YrGkUPBeg8Xnj81YxCw",
   "metadata": {
     "name": "twentyOne",
     "version": "0.1.0",
@@ -1282,31 +1282,26 @@ export type TwentyOne = {
     },
     {
       "code": 6016,
-      "name": "notEnoughRounds",
-      "msg": "Not enough rounds have been played. To close account a player needs to play at least 3 rounds."
-    },
-    {
-      "code": 6017,
       "name": "betExceedsBalance"
     },
     {
-      "code": 6018,
+      "code": 6017,
       "name": "betExceedsMaximalGain"
     },
     {
-      "code": 6019,
+      "code": 6018,
       "name": "balanceBelowMinimalBet"
     },
     {
-      "code": 6020,
+      "code": 6019,
       "name": "gameStillActive"
     },
     {
-      "code": 6021,
+      "code": 6020,
       "name": "notEnoughFundsToPlay"
     },
     {
-      "code": 6022,
+      "code": 6021,
       "name": "randomnessExpired"
     }
   ],

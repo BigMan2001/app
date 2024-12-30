@@ -152,10 +152,6 @@ const DisplayHands = () => {
         }
       }
     }
-    // Use setTimeout directly for the delay
-    setTimeout(() => {
-      handleGameEnd();
-    }, 2000);
     
     return { playerCards: playerCardsCopy, dealerCards: dealerCardsCopy };
   };
@@ -252,11 +248,11 @@ const DisplayHands = () => {
         setResultMessage("It's a Draw!");
       }
     }
-  
+    
     if (prevSessionState?.state === true && sessionState?.state === false) {
       setBetInput(0);
     }
-  
+    setShowMessage(true)
     setPrevSessionState(sessionState);
   };
 
@@ -301,14 +297,14 @@ const DisplayHands = () => {
         (wins > previousSession.wins || 
          draws > previousSession.draws || 
          loses > previousSession.loses)) {
-        setTimeout(() => setShowMessage(true), combinedCards.length * 1000);
+        setTimeout(() => handleGameEnd(), (combinedCards.length + 1) * 1000);
         setTimeout(() => {
           resetGame(playerCards, dealerCards);
           console.log("Game reset after 5 seconds.");
         }, 5000);
       }
-    
-      
+      // Use setTimeout directly for the delay
+
       // Update the previous session state
       previousSessionRef.current = { wins, draws, loses };
     };

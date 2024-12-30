@@ -1,5 +1,5 @@
 {
-  "address": "CDiinjeYnrY8Qh2ZaKfYVYXczh8vJQx9bjgwEPwP7dUt",
+  "address": "FpyrBGX9rfgCMpDJNXGHvF5g7YrGkUPBeg8Xnj81YxCw",
   "metadata": {
     "name": "twenty_one",
     "version": "0.1.0",
@@ -1276,31 +1276,26 @@
     },
     {
       "code": 6016,
-      "name": "NotEnoughRounds",
-      "msg": "Not enough rounds have been played. To close account a player needs to play at least 3 rounds."
-    },
-    {
-      "code": 6017,
       "name": "BetExceedsBalance"
     },
     {
-      "code": 6018,
+      "code": 6017,
       "name": "BetExceedsMaximalGain"
     },
     {
-      "code": 6019,
+      "code": 6018,
       "name": "BalanceBelowMinimalBet"
     },
     {
-      "code": 6020,
+      "code": 6019,
       "name": "GameStillActive"
     },
     {
-      "code": 6021,
+      "code": 6020,
       "name": "NotEnoughFundsToPlay"
     },
     {
-      "code": 6022,
+      "code": 6021,
       "name": "RandomnessExpired"
     }
   ],
